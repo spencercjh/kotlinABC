@@ -14,6 +14,13 @@ import chapter3.*
  * @date 2018年8月1日
  * @author spencercjh
  */
+
+
+/*kotlin的函数可以不写在类中*/
+fun main(args: Array<String>) {
+
+}
+
 /*kotlin不用写分号，常量用val，变量用var，数据类型可以省略也可以写在变（常）量名之后*/
 fun test1() {
     var n: Int = 30
