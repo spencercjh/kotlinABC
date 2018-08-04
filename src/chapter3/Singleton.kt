@@ -14,3 +14,10 @@ class Singleton private constructor() {
         }
     }
 }
+
+fun main(args: Array<String>) {
+    val myClass1 = Singleton.getInstance()
+    println(myClass1)
+    val myClass2 = Singleton.getInstance()
+    println(myClass2)
+}
