@@ -22,6 +22,10 @@ fun MyClass.test() {
 
 }
 
+fun Thread.foo(t: String) {
+    println(t)
+}
+
 /*属性也可以拓展*/
 private var MyClass.b: Int
     get() = b
